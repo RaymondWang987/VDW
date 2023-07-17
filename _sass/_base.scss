@@ -149,30 +149,52 @@ aside {
 
 // Homepage Header
 
-video {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-  }
-.video-wrapper {
-    /* Telling our absolute positioned video to 
-    be relative to this element */
-    position: relative;
-  
-    width: 100%;
-  
-    /* Will not allow the video to overflow the 
-    container */
-    overflow: hidden;
-  
-    /* Centering the container's content vertically 
-    and horizontally */
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+// video {
+//     position: relative;
+//     width: 100%;
+//     min-height: auto;
+//   }
+// .video-wrapper {
+//     /* Telling our absolute positioned video to 
+//     be relative to this element */
+//     position: relative;
+//     width: 100%;
+//     /* Will not allow the video to overflow the 
+//     container */
+//     overflow: hidden;
+//     /* Centering the container's content vertically 
+//     and horizontally */
+//     text-align: center;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.video-box {
+    position: relative;
+    height: 100vh;
+    background-color: #C1CFF7;
+    /*进行视频裁剪*/
+    overflow: hidden;
+}
+
+.video-box .video-background {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*保证视频内容始终居中*/
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    /*保证视频充满屏幕*/
+    object-fit: cover;
+    min-height: 800px;
+}
 
 header {
     position: relative;
