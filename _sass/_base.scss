@@ -151,10 +151,8 @@ aside {
 
 video {
     position: relative;
-    top: 0;
-    left: 0;
     width: 100%;
-    
+    min-height: auto;
   }
 .video-wrapper {
     /* Telling our absolute positioned video to 
