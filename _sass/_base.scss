@@ -185,6 +185,25 @@ header {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+    .video-wrapper {
+        /* Telling our absolute positioned video to 
+        be relative to this element */
+        position: relative;
+      
+        width: 400px;
+        height: 200px;
+      
+        /* Will not allow the video to overflow the 
+        container */
+        overflow: hidden;
+      
+        /* Centering the container's content vertically 
+        and horizontally */
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     .header-content {
         position: relative;
         text-align: center;
