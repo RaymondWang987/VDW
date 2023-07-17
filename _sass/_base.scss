@@ -150,9 +150,10 @@ aside {
 // Homepage Header
 
 video {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
+    width: 100%;
     
   }
 .video-wrapper {
@@ -160,8 +161,7 @@ video {
     be relative to this element */
     position: relative;
   
-    width: 400px;
-    height: 200px;
+    width: 100%;
   
     /* Will not allow the video to overflow the 
     container */
@@ -176,39 +176,15 @@ video {
   }
 
 
-header {
+  header {
     position: relative;
     width: 100%;
     min-height: auto;
-    // @include background-cover;
-    // background-position: center;
-    // background-image: url('../img/header.jpg');
+    @include background-cover;
+    background-position: center;
+    background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
-    video {
-        position: relative;
-        width: 100%;
-        min-height: auto;   
-      }
-    .video-wrapper {
-        /* Telling our absolute positioned video to 
-        be relative to this element */
-        position: relative;
-      
-        width: 400px;
-        height: 200px;
-      
-        /* Will not allow the video to overflow the 
-        container */
-        overflow: hidden;
-      
-        /* Centering the container's content vertically 
-        and horizontally */
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
     .header-content {
         position: relative;
         text-align: center;
