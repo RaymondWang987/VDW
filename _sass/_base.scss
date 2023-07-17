@@ -185,6 +185,12 @@ header {
     background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+      }
     .video-wrapper {
         /* Telling our absolute positioned video to 
         be relative to this element */
