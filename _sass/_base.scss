@@ -389,12 +389,14 @@ header {
 
 .video-leftbutton {
     position: relative;
-    left:-200px;
+    // left:-200px;
+    transform: translate(-100%,-0%);
     width:200px;
 }
 .video-rightbutton {
     position: relative;
-    left:200px;
+    // left:200px;
+    transform: translate(100%,-0%);
     width:200px;
 }
 
