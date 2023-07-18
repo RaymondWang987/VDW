@@ -388,16 +388,22 @@ header {
 }
 
 .video-leftbutton {
-    position: relative;
-    // left:-200px;
-    transform: translate(-100%,-0%);
-    width:200px;
+    // position: relative;
+    // // left:-200px;
+    // transform: translate(-100%,-0%);
+    // width:200px;
+    margin-top: 35px; 
+    margin-left:10px;
+    float:left;
 }
 .video-rightbutton {
-    position: relative;
-    // left:200px;
-    transform: translate(100%,-0%);
-    width:200px;
+    // position: relative;
+    // // left:200px;
+    // transform: translate(100%,-0%);
+    // width:200px;
+    margin-top: 35px; 
+    margin-right:10px;
+    float:right;
 }
 
 .btn-xl {
