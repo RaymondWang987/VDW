@@ -387,6 +387,17 @@ header {
     text-transform: uppercase;
 }
 
+.video-leftbutton {
+    position: relative;
+    left:-200px;
+    width:200px;
+}
+.video-rightbutton {
+    position: relative;
+    left:200px;
+    width:200px;
+}
+
 .btn-xl {
     padding: 15px 30px;
 }
