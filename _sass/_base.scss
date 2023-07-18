@@ -14,6 +14,12 @@ hr {
     max-width: 50px;
 }
 
+hbutton {
+    border-color: $theme-primary;
+    border-width: 50px;
+    max-width: 3px;
+}
+
 hr.light {
     border-color: white;
 }
@@ -212,6 +218,9 @@ aside {
             margin-bottom: 0;
         }
         hr {
+            margin: 30px auto;
+        }
+        hbutton {
             margin: 30px auto;
         }
         p {
