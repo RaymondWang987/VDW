@@ -6564,3 +6564,9 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+.video-leftbutton {
+  position: relative;
+  left:-50px;
+}
