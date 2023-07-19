@@ -216,9 +216,6 @@ aside {
         }
         hr {
             margin: 30px auto;
-            animation-delay: 300ms;
-            animation-duration: 1s;
-            animation-name: slideInDown;
         }
         p {
             font-weight: 400;
@@ -230,30 +227,31 @@ aside {
 }
 
 // video button 
-@-webkit-keyframes slideInDown {
-    from {
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-      visibility: visible;
-    }
-    to {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }}
-@keyframes slideInDown {
-    from {
-        -webkit-transform: translate3d(0, -100%, 0);
-        transform: translate3d(0, -100%, 0);
-        visibility: visible;
-    }
-    to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }}
-.animate__slideInDown {
-    -webkit-animation-name: slideInDown;
-    animation-name: slideInDown;
-    }
+// @-webkit-keyframes slideInDown {
+//     from {
+//       -webkit-transform: translate3d(0, -100%, 0);
+//       transform: translate3d(0, -100%, 0);
+//       visibility: visible;
+//     }
+//     to {
+//       -webkit-transform: translate3d(0, 0, 0);
+//       transform: translate3d(0, 0, 0);
+//     }}
+// @keyframes slideInDown {
+//     from {
+//         -webkit-transform: translate3d(0, -100%, 0);
+//         transform: translate3d(0, -100%, 0);
+//         visibility: visible;
+//     }
+//     to {
+//         -webkit-transform: translate3d(0, 0, 0);
+//         transform: translate3d(0, 0, 0);
+//     }}
+// .animate__slideInDown {
+//     -webkit-animation-name: slideInDown;
+//     animation-name: slideInDown;
+//     }
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.css");
 
 
 // header {
