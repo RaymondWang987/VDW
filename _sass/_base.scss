@@ -263,9 +263,14 @@ aside {
 
 @font-face {
     font-family: 'quantum2';
-    src: local('quantum2'), local('quantum2'), url(../fonts/Quantum-2.otf) format('truetype');
+    src: url('Quantum-2.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
 }
-
+.quantum2-font {
+    font-family: 'quantum2';
+    color: #666;
+}
 // header {
 //     position: relative;
 //     width: 100%;
