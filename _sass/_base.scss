@@ -216,7 +216,7 @@ aside {
         }
         hr {
             margin: 30px auto;
-            animation-delay: 300;
+            animation-delay: 300ms;
             animation-duration: 1s;
             animation-name: slideInDown;
         }
@@ -225,6 +225,8 @@ aside {
             color: rgba(white, .7);
             font-size: 16px;
             margin-bottom: 50px;
+            animation-delay: 1s;
+            animation-duration: 1s;
         }
     }
 }
