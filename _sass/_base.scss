@@ -197,6 +197,8 @@ aside {
 }
 
 .video-box .header-content {
+    animation-duration: 3s;
+    animation-name: slideInDown;
     z-index: 9;
     position: absolute;
     text-align: center;
@@ -229,9 +231,19 @@ aside {
 }
 
 // video button 
-.d-flex{display:flex!important}
-.justify-content-center{justify-content:center!important}
-.justify-content-lg-start{justify-content:flex-start!important}
+@-webkit-keyframes slideInDown{
+    0%{-webkit-transform:translate3d(0,-100%,0);
+        transform:translate3d(0,-100%,0);
+        visibility:visible}
+    to{-webkit-transform:translateZ(0);transform:translateZ(0)}}
+@keyframes slideInDown{
+    0%{-webkit-transform:translate3d(0,-100%,0);
+        transform:translate3d(0,-100%,0);
+        visibility:visible}to{-webkit-transform:translateZ(0);
+        transform:translateZ(0)}}
+.animate__slideInDown{
+    -webkit-animation-name:slideInDown;
+    animation-name:slideInDown}
 
 
 header {
