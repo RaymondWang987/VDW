@@ -261,6 +261,10 @@ aside {
 //     }
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.css");
 
+@font-face {
+    font-family: 'quantum2';
+    src: local('quantum2'), local('quantum2'), url(../fonts/Quantum-2.otf) format('truetype');
+}
 
 // header {
 //     position: relative;
