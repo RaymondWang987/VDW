@@ -196,6 +196,11 @@ aside {
     min-height: 800px;
 }
 
+@font-face {
+    font-family: 'quantum2';
+    src: url('Quantum-2.otf');
+}
+
 .video-box .header-content {
     z-index: 9;
     position: absolute;
@@ -262,12 +267,7 @@ aside {
 //     }
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.css");
 
-@font-face {
-    font-family: 'quantum2';
-    src: url('Quantum-2.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
+
 // .quantum2-font {
 //     font-family: 'quantum2';
 //     color: #666;
