@@ -368,10 +368,13 @@ aside {
 .section-content {
     padding-top: 80px;
     padding-bottom: 80px;
-    animation-duration: 1.2s;
-    animation-name: slideInDown;
-    animation-delay: 300ms
+    .row{
+        animation-duration: 1.2s;
+        animation-name: slideInDown;
+        animation-delay: 300ms
+    }
 }
+
 
 
 
