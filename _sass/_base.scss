@@ -374,8 +374,13 @@ aside {
         animation-delay: 300ms
     }
 }
-
-
+.logo-hover {
+    color: white;
+    transition-duration: 0.4s;
+}
+.logo-hover:hover {
+    color: #F05F40;
+}
 
 
 // .quantum2-font {
