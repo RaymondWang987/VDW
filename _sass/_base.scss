@@ -322,6 +322,41 @@ aside {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
+
+.btn-l2 {
+    // background-color: white;
+    background-color: #5161AD;
+    // background-color:transparent;
+    // color: #F05F40;
+    color: white;
+    // border: 2px solid #4CAF50; /* 绿色 */
+    border: 2px solid #5161AD; /* 绿色 */
+    transition-duration: 0.4s;
+  }
+.btn-l2:hover {
+    // background-color: white; /* Green */
+    background-color: white; /* Green */
+    color: #5161AD;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+.btn-r2 {
+    // background-color: white;
+    background-color: #EC8221;
+    // background-color:transparent;
+    // color: #F05F40;
+    color: white;
+    // border: 2px solid #4CAF50; /* 绿色 */
+    border: 2px solid #EC8221; /* 绿色 */
+    transition-duration: 0.4s;
+  }
+.btn-r2:hover {
+    // background-color: white; /* Green */
+    background-color: white; /* Green */
+    color: #EC8221;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 // .quantum2-font {
 //     font-family: 'quantum2';
 //     color: #666;
