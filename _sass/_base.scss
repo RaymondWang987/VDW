@@ -248,21 +248,27 @@ aside {
     from {
       -webkit-transform: translate3d(0, -100%, 0);
       transform: translate3d(0, -100%, 0);
-      visibility: visible;
+      visibility:hidden;
+      opacity:0;
     }
     to {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
+      visibility: visible;
+      opacity:1;
     }}
 @keyframes slideInDown {
     from {
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
-        visibility: visible;
+        visibility:hidden;
+        opacity:0;
     }
     to {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
+        visibility: visible;
+        opacity:1;
     }}
 .animate__slideInDown {
     -webkit-animation-name: slideInDown;
