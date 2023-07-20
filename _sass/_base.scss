@@ -276,6 +276,36 @@ aside {
     }
 // @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.css");
 
+.btn-outline-dark {
+    --bs-btn-color: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #212529;
+    --bs-btn-hover-border-color: #212529;
+    --bs-btn-focus-shadow-rgb: 33, 37, 41;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #212529;
+    --bs-btn-active-border-color: #212529;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #212529;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #212529;
+    --bs-gradient: none;
+  }
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+.fs-6 {
+    font-size: 1rem !important;
+  }
+.fw-bolder {
+    font-weight: bolder !important;
+  }
 
 // .quantum2-font {
 //     font-family: 'quantum2';
