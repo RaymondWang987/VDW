@@ -215,7 +215,7 @@ aside {
     margin-top: 10%; 
     .header-content-inner {
         h1 {
-            animation-duration: 0.4s;
+            animation-duration: 0.8s;
             animation-name: slideInDown;
             font-weight: 700;
             text-transform: uppercase;
@@ -231,14 +231,14 @@ aside {
             color: rgba(white, .7);
             font-size: 16px;
             margin-bottom: 50px;
-            animation-duration: 0.5s;
+            animation-duration: 0.8s;
             animation-name: slideInDown;
-            animation-delay: 100ms
+            animation-delay: 300ms
         }
         a {
-            animation-duration: 0.6s;
+            animation-duration: 0.8s;
             animation-name: slideInDown;
-            animation-delay: 200ms
+            animation-delay: 500ms
         }
     }
 }
