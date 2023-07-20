@@ -276,6 +276,10 @@ aside {
     }
 // @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.css");
 
+.btn-l1 {
+    @include button-variant(white, $theme-primary, white);
+}
+
 .button-cus {
     // background-color: white;
     background-color:transparent;
