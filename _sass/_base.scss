@@ -231,14 +231,14 @@ aside {
             color: rgba(white, .7);
             font-size: 16px;
             margin-bottom: 50px;
-            animation-duration: 0.8s;
+            animation-duration: 1s;
             animation-name: slideInDown;
-            animation-delay: 300ms
+            animation-delay: 100ms
         }
         a {
-            animation-duration: 0.8s;
+            animation-duration: 1.2s;
             animation-name: slideInDown;
-            animation-delay: 500ms
+            animation-delay: 200ms
         }
     }
 }
