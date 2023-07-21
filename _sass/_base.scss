@@ -399,7 +399,8 @@ aside {
     cursor: pointer;
     // padding: 16px;
     font-size: 16px;
-    background-color: #F05F40;
+    // background-color: #F05F40;
+    background-color: transparent;
   }
 /* 容器<div>需要定位下拉内容 */
 .dropdown {
@@ -432,7 +433,7 @@ aside {
 }
 /* 当下拉菜单显示之后，修改下拉按钮的背景颜色 */
 .dropdown:hover .dropbtn {
-    background-color: white;
+    background-color: transparent;
 }
 
 // .quantum2-font {
