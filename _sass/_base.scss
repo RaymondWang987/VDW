@@ -403,6 +403,11 @@ aside {
     background-color: transparent;
   }
 /* 容器<div>需要定位下拉内容 */
+.extensive-button {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -436,7 +441,11 @@ aside {
     background-color: antiquewhite;
 }
 /* 鼠标移动到下拉按钮上之后，显示下拉菜单 */
-.dropdown:hover .dropdown-content {
+// .dropdown:hover .dropdown-content {
+//     display: block;
+// }
+
+.extensive-button:hover .dropdown .dropdown-content {
     display: block;
 }
 /* 当下拉菜单显示之后，修改下拉按钮的背景颜色 */
