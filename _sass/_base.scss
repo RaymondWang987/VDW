@@ -427,7 +427,8 @@ aside {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     right: 0;
-    background-color: whitesmoke;
+    // background-color: whitesmoke;
+    background-color: transparent;
 }
 /* 下拉菜单的链接 */
 .dropdown-content a {
@@ -438,7 +439,8 @@ aside {
 }
 /* 鼠标移到链接上之后，修改连接的背景颜色 */
 .dropdown-content a:hover {
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
+    background-color: transparent;
 }
 /* 鼠标移动到下拉按钮上之后，显示下拉菜单 */
 // .dropdown:hover .dropdown-content {
