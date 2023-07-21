@@ -407,6 +407,14 @@ aside {
     position: relative;
     display: inline-block;
 }
+.dropdown::after {
+    content: '';
+    // position: absolute;
+    top: -6rpx;
+    right: -30rpx;
+    bottom: -6rpx;
+    left: -20rpx;
+    }
 /* 下拉内容（默认隐藏） */
 .dropdown-content {
     position: absolute;
