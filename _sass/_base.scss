@@ -397,8 +397,9 @@ aside {
 .dropbtn {
     border: none;
     cursor: pointer;
-    padding: 16px;
+    // padding: 16px;
     font-size: 16px;
+    background-color: #F05F40;
   }
 /* 容器<div>需要定位下拉内容 */
 .dropdown {
@@ -431,7 +432,7 @@ aside {
 }
 /* 当下拉菜单显示之后，修改下拉按钮的背景颜色 */
 .dropdown:hover .dropbtn {
-    background-color: darkgreen;
+    background-color: white;
 }
 
 // .quantum2-font {
