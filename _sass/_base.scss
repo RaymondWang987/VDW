@@ -392,6 +392,48 @@ aside {
     color: white;
 }
 
+// 下拉菜单
+/* 下拉按钮的样式 */
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 16px;
+    background-color: green;
+  }
+/* 容器<div>需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* 下拉内容（默认隐藏） */
+.dropdown-content {
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    background-color: whitesmoke;
+}
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+}
+/* 鼠标移到链接上之后，修改连接的背景颜色 */
+.dropdown-content a:hover {
+    background-color: antiquewhite;
+}
+/* 鼠标移动到下拉按钮上之后，显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* 当下拉菜单显示之后，修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: darkgreen;
+}
 
 // .quantum2-font {
 //     font-family: 'quantum2';
