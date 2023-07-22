@@ -233,19 +233,19 @@ aside {
             margin-bottom: 50px;
             animation-duration: 1s;
             animation-name: slideInDown;
-            animation-delay: 100ms
+            animation-delay: 100ms;
         }
         a {
             font-size: 18px;
             animation-duration: 1.2s;
             animation-name: slideInDown;
-            animation-delay: 200ms
+            animation-delay: 200ms;
         }
         button {
             font-size: 18px;
             animation-duration: 1.2s;
             animation-name: slideInDown;
-            animation-delay: 200ms
+            animation-delay: 200ms;
         }
     }
 }
@@ -437,7 +437,8 @@ aside {
 /* 下拉内容（默认隐藏） */
 .dropdown-content {
     position: absolute;
-    display: none;
+    // display: none;
+    visibility:hidden;
     min-width: 160px;
     // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     right: 0;
@@ -446,7 +447,8 @@ aside {
 }
 /* 下拉菜单的链接 */
 .dropdown-content a {
-    display: block;
+    // display: block;
+    visibility:visible;
     padding: 12px 16px;
     text-decoration: none;
     color: white;
@@ -462,7 +464,8 @@ aside {
 // }
 
 .extensive-button:hover .dropdown .dropdown-content {
-    display: block;
+    // display: block;
+    visibility:visible;
 }
 /* 当下拉菜单显示之后，修改下拉按钮的背景颜色 */
 .dropdown:hover .dropbtn {
