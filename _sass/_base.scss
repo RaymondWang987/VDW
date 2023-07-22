@@ -224,6 +224,16 @@ aside {
             margin-top: 0;
             margin-bottom: 0;
         }
+        h3 {
+            font-weight: 400;
+            animation-duration: 1s;
+            animation-name: slideInDown;
+            animation-delay: 100ms;
+            color: rgba(white, .7);
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-family: Caveat;
+        }
         hr {
             margin: 30px auto;
         }
