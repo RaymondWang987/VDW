@@ -31,7 +31,7 @@
     $("h1").fitText(
         1.4, {
             minFontSize: '35px',
-            maxFontSize: '63px'
+            maxFontSize: '62px'
         }
     );
 
