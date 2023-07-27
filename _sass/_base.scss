@@ -207,15 +207,15 @@ aside {
 
 .video-box .header-content {
     z-index: 9;
-    position: absolute;
+    position: relative;
     text-align: center;
     // padding: 15vh 0% 0;
     // padding-top: 15vh;
-    padding-top: clamp(5rem, -35rem + 80rem, 15rem);
+    padding-top: 8vw;
     width: 100%;
     color: white;
     margin-top: 50px; 
-    height: 100%;
+    height: calc(100vh - 50px);
     display:flex;
     flex-direction:column;
     .header-content-inner {
