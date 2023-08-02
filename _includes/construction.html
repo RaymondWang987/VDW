@@ -16,7 +16,7 @@
     <div style="height: 35%;" class="col-md-5 col-sm-5 text-center">
         <div style="vertical-align: middle;">
             <h1 style="color: black;margin-top:8%;">
-                <span style="font-weight: 600;font-family: Caveat">Overall Description</span> 
+                <span style="font-weight: 1000;font-family: Caveat">Overall Description</span> 
             </h1>
             <h4 style="color: black;text-align: left;margin-top:4%;">
                 Current video depth datasets are limited in both diversity and volume. 
@@ -32,7 +32,7 @@
     <div style="height: 35%;margin-top: 5%;" class="col-md-5 col-sm-5 text-center">
         <div style="vertical-align: middle;">
             <h1 style="color: black;margin-top:8%;">
-                <span style="font-weight: 600;font-family: Caveat">Raw Video Acquisition</span> 
+                <span style="font-weight: 1000;font-family: Caveat">Raw Video Acquisition</span> 
             </h1>
             <h4 style="color: black;text-align: left;margin-top:4%;">
                 We collect stereo videos from four data sources: 
@@ -45,6 +45,19 @@
     </div>
     <div style="height: 35%;margin-top: 5%;" class="col-md-7 col-sm-7 text-center">
         <img style="max-width: 100%;max-height: 100%;border-radius:2%" src="construct_page-0002.png" >
+    </div>
+
+    <div style="height: 25%;margin-top: 3%;" class="col-md-12 col-sm-12 text-center">
+        <h1 style="color: black;margin-top:3%;">
+            <span style="font-weight: 1000;font-family: Caveat">Data Pre-processing</span> 
+        </h1>
+        <h4 style="color: black;text-align: left;margin-top:4%;">
+            Having obtained the raw videos, we use <span style="font-weight: 800;color: red;"><a href="https://ffmpeg.org/">FFmpeg</a></span> and 
+            <span style="font-weight: 800;color: red;"><a href="https://www.scenedetect.com/">PySceneDetect</a></span> to split all the videos into 104,582 sequences. 
+            We manually check and remove the duplicated, chaotic, and blur scenes. 
+            Videos that are wrongly split by the scene detect tools are also removed. 
+            Finally, we reserve 32,405 videos with more than six million frames for disparity annotations.
+        </h4>
     </div>
 
 
