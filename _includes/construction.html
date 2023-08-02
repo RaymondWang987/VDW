@@ -61,4 +61,54 @@
     </div>
 
 
+
+    <div style="height: 16%;margin-top: 3%;" class="col-md-6 col-sm-6 text-center">
+        <div style="vertical-align: middle;">
+            <h1 style="color: black;margin-top:4%;">
+                <span style="font-weight: 1000;font-family: Caveat">Sky segmentation</span> 
+            </h1>
+            <h3 style="color: black;text-align: left;margin-top:4%;font-family:Calibri;">
+                As sky is infinitely far, pixels in sky regions should be set to the minimum value in disparity maps. 
+                We generate sky masks in a model ensemble manner. 
+                Each frame along with its horizontally flipped copy are fed into two semantic segmentation models 
+                <span style="font-weight: 800;color: red;"><a href="https://github.com/NVlabs/SegFormer">SegFormer</a></span> and 
+                <span style="font-weight: 800;color: red;"><a href="https://github.com/facebookresearch/Mask2Former">Mask2Former</a></span>, which yields four sky masks in total. 
+                A pixel is considered as the sky when it is positive in more than two predicted sky masks. 
+                Besides, we also fill the connected regions with less than 50 pixels to further remove noisy holes in sky masks. 
+
+            </h3>
+        </div>
+    </div>
+    <div style="height: 16%;margin-top: 3%;" class="col-md-6 col-sm-6 text-center">
+        <img style="max-width: 100%;max-height: 100%;border-radius:2%" src="construct_page-0003.jpg" >
+    </div>
+
+    <div style="height: 16%;margin-top: 3%;" class="col-md-6 col-sm-6 text-center">
+        <img style="max-width: 100%;max-height: 100%;border-radius:2%" src="construct_page-0004.jpg" >
+    </div>
+    <div style="height: 16%;margin-top: 3%;" class="col-md-6 col-sm-6 text-center">
+        <div style="vertical-align: middle;">
+            <h1 style="color: black;margin-top:4%;">
+                <span style="font-weight: 1000;font-family: Caveat">Disparity Annotation</span> 
+            </h1>
+            <h3 style="color: black;text-align: left;margin-top:4%;font-family:Calibri;">
+                We adopt the optical flow model <span style="font-weight: 800;color: red;"><a href="https://github.com/haofeixu/gmflow">GMFlow</a></span> to generate the ground truth disparity of the left- and right-eye views. 
+                The estimated optical flow is bidirectional. We perform a consistency check between the optical flow pairs to obtain the valid masks for training. 
+                We adopt an adaptive consistency threshold for each pixel. The ground truth of each video is normalized by its minimum and maximum disparity. 
+                The disparity value is discretized into 65,535 intervals. 
+            </h3>
+        </div>
+    </div>
+
+    <div style="height: 12%;margin-top: 0%;" class="col-md-12 col-sm-12 text-center">
+        <h1 style="color: black;margin-top:2%;">
+            <span style="font-weight: 1000;font-family: Caveat">Invalid Sample Filtering</span> 
+        </h1>
+        <h3 style="color: black;text-align: center;margin-top:1%;font-family:Calibri;max-width: 60%;margin: auto;">
+            We further filter the videos that are not qualified for our dataset. According to optical flow and valid masks, samples with the following three conditions are removed: 1) more than 30% of pixels in the consistency masks are invalid; 2) more than 10% of pixels have vertical disparity larger than two pixels; 3) the average range of horizontal disparity is less than 15 pixels. Then, we manually check all the videos along with their corresponding ground truth, and remove the samples with obvious errors. Finally, we retain 14,203 videos with 2,237,320 frames in VDW dataset.
+        </h3>
+    </div>
+    
+
+
 </section>
