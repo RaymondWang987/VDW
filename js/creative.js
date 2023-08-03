@@ -56,7 +56,7 @@
     $("h5").fitText(
         3, {
             minFontSize: '12px',
-            maxFontSize: '24px'
+            maxFontSize: '22px'
         }
     );
 
