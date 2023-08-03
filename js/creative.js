@@ -44,8 +44,8 @@
 
     $("h3").fitText(
         3, {
-            minFontSize: '12px',
-            maxFontSize: '24px'
+            minFontSize: '10px',
+            maxFontSize: '20px'
         }
     );
 
