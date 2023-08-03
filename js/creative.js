@@ -42,10 +42,14 @@
         }
     );
 
+
+
+
+
     $("h4").fitText(
         3, {
             minFontSize: '8px',
-            maxFontSize: '18px'
+            maxFontSize: '24px'
         }
     );
 
