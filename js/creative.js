@@ -43,7 +43,7 @@
     );
 
     $("h3").fitText(
-        1.2, {
+        1.6, {
             minFontSize: '12px',
             maxFontSize: '24px'
         }
