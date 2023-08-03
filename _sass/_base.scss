@@ -568,7 +568,7 @@ aside {
 
 // Sections
 // construct
-.height-md-2, .height-sm-2, .height-xs-2, .height-md-1, .height-sm-1, .height-xs-1 {
+.height-md-2, .height-sm-2, .height-xs-2, .height-xs-1-5, .height-xs-1-2, .height-md-1, .height-sm-1, .height-xs-1{
     position: relative;
   }
 .height-xs-2 {
@@ -576,6 +576,12 @@ aside {
 }
 .height-xs-1 {
     height: 8.33333333%;
+}
+.height-xs-1-2 {
+    height: 10%;
+}
+.height-xs-1-5 {
+    height: 12.5%;
 }
 
 @media (min-width: 768px) {
