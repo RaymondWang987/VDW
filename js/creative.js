@@ -49,6 +49,13 @@
     $("h4").fitText(
         3, {
             minFontSize: '8px',
+            maxFontSize: '24px'
+        }
+    );
+
+    $("h5").fitText(
+        5, {
+            minFontSize: '8px',
             maxFontSize: '20px'
         }
     );
