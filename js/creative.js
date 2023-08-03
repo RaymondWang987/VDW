@@ -42,6 +42,13 @@
         }
     );
 
+    $("h3").fitText(
+        1.2, {
+            minFontSize: '12px',
+            maxFontSize: '24px'
+        }
+    );
+
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
