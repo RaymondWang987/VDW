@@ -573,6 +573,24 @@ aside {
     text-justify:distribute-all-lines; // 这行必加，兼容ie浏览器
     // text-align-last: justify;
 }
+.construct-container{
+    display: flex;
+}
+.construct-item{
+    flex: 1;
+    align-self: stretch;
+}
+@media (max-width: 768px) {
+    .construct-container {
+      flex-direction: column; /* 将容器的子元素变为垂直排列 */
+    }
+  
+    .construct-item {
+      margin-bottom: 10px; /* 添加间距，使垂直排列时元素之间有间距 */
+    }
+  }
+
+
 .height-md-12, .height-sm-12, .height-xs-12, .height-md-2, .height-sm-2, .height-xs-2, .height-xs-1-5, .height-xs-1-2, .height-md-1, .height-sm-1, .height-xs-1{
     position: relative;
   }
