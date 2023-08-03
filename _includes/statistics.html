@@ -1,4 +1,4 @@
-<section class="bg-primary container" style="background-color:#7c944b;width:100%;opacity: 1;padding:3% 6% 3% 6%;" id="statistics">
+<section class="bg-primary container" style="background-color:#7c944b;width:100%;opacity: 1;padding:3% 10% 3% 10%;" id="statistics">
     <!-- <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -31,6 +31,24 @@
         </div>
     </div>
     
+    <div style="margin-top: 2%;width: 100%;" class="container construct-container construct-margin">
+        <div style="margin: auto;" class="construct-item height-md-12 height-sm-12 height-xs-6 col-md-6 col-sm-6 col-xs-12 text-center">
+            <div style="vertical-align: middle;">
+                <h6 style="color: black;margin-top:0px;">
+                    <span style="font-weight: 1000;font-family: Caveat">Objective Statistics</span> 
+                </h6>
+                <h4 style="color: black;text-align: left;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 90%;margin: auto;text-align: justify;" class="text-justify">
+                    VDW contains 14,203 videos with 2,237,320 frames. The total data collection and processing time takes over six months and about 4,000 man-hours. To verify the diversity of scenes and entities in our dataset, we conduct semantic segmentation by 
+                    <span style="font-weight: 800;color: #007AFC;"><a href="https://github.com/facebookresearch/Mask2Former" style="color: #007AFC;">Mask2Former</a></span> trained on <span style="font-weight: 800;color: #007AFC;"><a href="https://groups.csail.mit.edu/vision/datasets/ADE20K/" style="color: #007AFC;">ADE20k</a></span>. 
+                    All the 150 categories are covered in our dataset, and each category can be found in at least 50 videos. The five categories that present most frequently are person (97.2%), wall (89.1%), floor (63.5%), ceiling (46.5%), and tree (42.3%). 
+                </h4>
+            </div>
+        </div>
+        <div class="construct-item height-md-12 height-sm-12 height-xs-6 col-md-6 col-sm-6 col-xs-12 text-center">
+            <img style="max-width: 100%;max-height: 100%;border-radius:2%" src="statistics_page-0002.png" >
+        </div>
+    </div>
+
     <!-- <div style="margin-top: 4%;" class="height-md-2 height-sm-2 height-xs-1"> -->
     <div style="width: 100%;" class="container construct-container construct-margin">
         <div class="construct-item height-md-12 height-sm-12 height-xs-6 col-md-6 col-sm-6 col-xs-12 text-center">
@@ -55,32 +73,8 @@
         </div>
     </div>
 
-    <!-- ----- -->
 
-
-    <!-- <div style="margin-top: 4%;" class="height-md-2 height-sm-2 height-xs-1-5"> -->
-    <div style="margin-top: 2%;width: 100%;" class="container construct-container construct-margin">
-        <div style="margin: auto;" class="construct-item height-md-12 height-sm-12 height-xs-6 col-md-6 col-sm-6 col-xs-12 text-center">
-            <div style="vertical-align: middle;">
-                <h6 style="color: black;margin-top:0px;">
-                    <span style="font-weight: 1000;font-family: Caveat">Sky Segmentation</span> 
-                </h6>
-                <h4 style="color: black;text-align: left;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 90%;margin: auto;text-align: justify;" class="text-justify">
-                    As sky is infinitely far, pixels in sky regions should be set to the minimum value in disparity maps. 
-                    We generate sky masks in a model ensemble manner. 
-                    Each frame along with its horizontally flipped copy are fed into two semantic segmentation models 
-                    <span style="font-weight: 800;color: #007AFC;"><a href="https://github.com/NVlabs/SegFormer" style="color: #007AFC;">SegFormer</a></span> and 
-                    <span style="font-weight: 800;color: #007AFC;"><a href="https://github.com/facebookresearch/Mask2Former" style="color: #007AFC;">Mask2Former</a></span>, which yields four sky masks in total. 
-                    A pixel is considered as the sky when it is positive in more than two predicted sky masks. 
-                    Besides, we also fill the connected regions with less than 50 pixels to further remove noisy holes in sky masks. 
     
-                </h4>
-            </div>
-        </div>
-        <div class="construct-item height-md-12 height-sm-12 height-xs-6 col-md-6 col-sm-6 col-xs-12 text-center">
-            <img style="max-width: 100%;max-height: 100%;border-radius:2%" src="construct_page-0003.jpg" >
-        </div>
-    </div>
     
     
 
