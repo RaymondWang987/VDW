@@ -571,7 +571,7 @@ aside {
 .text-justify{
     text-align: justify;
     text-justify:distribute-all-lines; // 这行必加，兼容ie浏览器
-    text-align-last: justify;
+    // text-align-last: justify;
 }
 .height-md-12, .height-sm-12, .height-xs-12, .height-md-2, .height-sm-2, .height-xs-2, .height-xs-1-5, .height-xs-1-2, .height-md-1, .height-sm-1, .height-xs-1{
     position: relative;
