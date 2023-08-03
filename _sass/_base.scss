@@ -567,6 +567,36 @@ aside {
 // }
 
 // Sections
+// construct
+.height-md-2, .height-sm-2, .height-xs-2, .height-md-1, .height-sm-1, .height-xs-1 {
+    position: relative;
+  }
+.height-xs-2 {
+    height: 16.66666667%;
+}
+.height-xs-1 {
+    height: 8.33333333%;
+}
+
+@media (min-width: 768px) {
+    .height-sm-1 {
+        height: 8.33333333%;
+    }
+    .height-sm-2 {
+        height: 16.66666667%;
+    }
+}
+@media (min-width: 992px) {
+    .height-md-1 {
+        height: 8.33333333%;
+    }
+    .height-md-2 {
+        height: 16.66666667%;
+    }
+}
+
+
+
 
 .section-heading {
     margin-top: 0;
