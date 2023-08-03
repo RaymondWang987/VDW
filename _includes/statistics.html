@@ -33,22 +33,25 @@
     
     <!-- <div style="margin-top: 4%;" class="height-md-2 height-sm-2 height-xs-1"> -->
     <div style="width: 100%;" class="container construct-container construct-margin">
+        <div class="construct-item height-md-12 height-sm-12 height-xs-6 col-md-6 col-sm-6 col-xs-12 text-center">
+            <img style="max-width: 100%;max-height: 100%;border-radius:2%;" src="statistics_page-0003.png" >
+            <h6 style="color: black;margin-top:1%;">
+                <span style="font-weight: 1000;font-family: Caveat">VDW Training Set</span> 
+            </h6>
+        </div>
         <div style="margin: auto;" class="construct-item height-md-12 height-sm-12 height-xs-6 col-md-6 col-sm-6 col-xs-12 text-center">
             <div style="vertical-align: middle;">
                 <h6 style="color: black;margin-top:0px;">
-                    <span style="font-weight: 1000;font-family: Caveat">Objective Statistics</span> 
+                    <span style="font-weight: 1000;font-family: Caveat">Train&nbsp;/&nbsp;Test Split</span> 
                 </h6>
                 <h4 style="color: black;text-align: left;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 90%;margin: auto;text-align: justify;" class="text-justify">
-                    VDW contains 14,203 videos with 2,237,320 frames. 
-                    The total data collection and processing time takes over six months and about 4,000 man-hours. 
-                    To verify the diversity of scenes and entities in our dataset, we conduct semantic segmentation by 
-                    <span style="font-weight: 800;color: #007AFC;"><a href="https://github.com/facebookresearch/Mask2Former" style="color: #007AFC;">Mask2Former</a></span> trained on <span style="font-weight: 800;color: #007AFC;"><a href="https://groups.csail.mit.edu/vision/datasets/ADE20K/" style="color: #007AFC;">ADE20k</a></span>. 
-                    All the 150 categories are covered in our dataset, and each category can be found in at least 50 videos. The five categories that present most frequently are person (97.2%), wall (89.1%), floor (63.5%), ceiling (46.5%), and tree (42.3%). 
+                    We randomly adopts 104 videos with 13,963 frames as the test set. The testing videos adopt different data sources from the training data, i.e., different movies, web videos, or animations. Our VDW not only alleviates the data shortage for learning-based approaches, but also serves as a comprehensive benchmark for video depth.
                 </h4>
+                <img style="max-width: 100%;max-height: 100%;border-radius:2%;" src="statistics_page-0004.png" >
+                <h6 style="color: black;margin-top:1%;">
+                    <span style="font-weight: 1000;font-family: Caveat">VDW Testing Set</span> 
+                </h6>
             </div>
-        </div>
-        <div class="construct-item height-md-12 height-sm-12 height-xs-6 col-md-6 col-sm-6 col-xs-12 text-center">
-            <img style="max-width: 100%;max-height: 100%;border-radius:2%;" src="statistics_page-0002.png" >
         </div>
     </div>
 
