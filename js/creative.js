@@ -42,7 +42,7 @@
         }
     );
 
-    $("h3").fitText(
+    $("h4").fitText(
         3, {
             minFontSize: '10px',
             maxFontSize: '20px'
