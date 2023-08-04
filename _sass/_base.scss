@@ -653,6 +653,9 @@ aside {
     border: 3px solid #ccc; /* 添加边框样式，可选 */
     padding: 10px; /* 可选，设置内边距 */
     height: 80%;
+    p{
+        font-size: 20px;
+    }
 }
 .license-container{
     display: flex;
