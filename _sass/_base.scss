@@ -663,7 +663,11 @@ aside {
 .license-adjustitem{
     flex: 1; /* 让element1自动撑满剩余的高度 */
 }
-
+.license-list-marginbottom{
+    li{
+        margin-bottom: 8px;
+    }
+}
 
 
 .section-heading {
