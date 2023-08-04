@@ -581,6 +581,9 @@ aside {
 }
 .construct-pagepadding{
     padding:3% 10% 3% 10%;
+    .construct-container{
+        background-color: white;
+    }
 }
 .construct-item{
     flex: 1;
