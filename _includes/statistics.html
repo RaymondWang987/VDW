@@ -96,24 +96,29 @@
             <ul class="tab_box" style="color: black;max-width: 90%;margin: auto;">
                 <li class="tabBox_active">
                     <div>
-                        <h4>VDW dataset has larger numbers of video scenes. Compared with the closed-domain datasets, VDW is not restricted to a certain scene, which is more helpful to train a robust video depth model. For the natural-scene datasets, VDW has more than ten times the number of videos as the previous largest dataset 
+                        <h5 style="font-family:Calibri;hyphens: auto;text-align: justify;">
+                            VDW dataset has larger numbers of video scenes. Compared with the closed-domain datasets, VDW is not restricted to a certain scene, which is more helpful to train a robust video depth model. For the natural-scene datasets, VDW has more than ten times the number of videos as the previous largest dataset 
                         <span style="font-weight: 800;color: #007AFC;"><a href="https://sites.google.com/view/wsvd/home" style="color: #007AFC;">WSVD</a></span>. 
-                        It is also worth noticing that our VDW dataset has higher resolutions. We only collect videos over 1080p and crop them to 1880 × 800 to remove black bars and subtitles. </h4>
-                        <!-- <div style="text-align: center;"><a href="img/framework.png" target="_blank"><img src="img/framework.png" alt="Framework" width="60%"></a></div> -->
+                        It is also worth noticing that our VDW dataset has higher resolutions. We only collect videos over 1080p and crop them to 1880 × 800 to remove black bars and subtitles. 
+                        </h5>
                         <div style="text-align: center;max-width: 80%;"><img src="statistics_page-0001.png" alt="Framework" width="100%"></div>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <p>Visual comparisons. DeepV2D and Robust-CVD  show obvious artifacts in those videos. We draw the scanline slice over time; fewer zigzagging pattern means better consistency. Compared with the other video depth methods, our NVDS is more robust on natural scenes and achieves better spatial accuracy and temporal consistency.</p>
-                        <!-- <div style="text-align: center;"><a href="img/error_analysis.png" target="_blank"><img src="img/error_analysis.png" alt="Error Analysis" width="100%"></a></div> -->
+                        <h5 style="font-family:Calibri;hyphens: auto;text-align: justify;">
+                            VDW contains 14,203 videos with 2,237,320 frames. The total data collection and processing time takes over six months and about 4,000 man-hours. To verify the diversity of scenes and entities in our dataset, we conduct semantic segmentation by 
+                            <span style="font-weight: 800;color: #007AFC;"><a href="https://github.com/facebookresearch/Mask2Former" style="color: #007AFC;">Mask2Former</a></span> trained on <span style="font-weight: 800;color: #007AFC;"><a href="https://groups.csail.mit.edu/vision/datasets/ADE20K/" style="color: #007AFC;">ADE20k</a></span>. 
+                            All the 150 categories are covered in our dataset, and each category can be found in at least 50 videos. The five categories that present most frequently are person (97.2%), wall (89.1%), floor (63.5%), ceiling (46.5%), and tree (42.3%). 
+                        </h5>
                         <div style="text-align: center;max-width: 80%;"><img src="statistics_page-0002.png" alt="Error Analysis" width="100%"></div>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <p>Comparisons with the state-of-the-art approaches. We report the total time of processing eight 640 × 480 frames by different methods on one NVIDIA RTX A6000 GPU. Best performance is in boldface. Second best is underlined.</p>
-                        <!-- <div style="text-align: center;"><a href="img/neural_renderer.png" target="_blank"><img src="img/neural_renderer.png" alt="Neural Renderer" width="100%"></a></div> -->
+                        <h5 style="font-family:Calibri;hyphens: auto;text-align: justify;">
+                            We randomly adopts 104 videos with 13,963 frames as the test set. The testing videos adopt different data sources from the training data, i.e., different movies, web videos, or animations. Our VDW not only alleviates the data shortage for learning-based approaches, but also serves as a comprehensive benchmark for video depth.
+                        </h5>
                         <div style="text-align: center;max-width: 80%;"><img src="statistics_page-0004.png" alt="Neural Renderer" width="100%"></div>
                     </div>
                 </li>
