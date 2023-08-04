@@ -579,6 +579,9 @@ aside {
 .construct-margin{
     margin-bottom: 3%;
 }
+.construct-pagepadding{
+    padding:3% 10% 3% 10%;
+}
 .construct-item{
     flex: 1;
     align-self: stretch;
@@ -587,7 +590,9 @@ aside {
     .construct-container {
       flex-direction: column; /* 将容器的子元素变为垂直排列 */
     }
-  
+    .construct-pagepadding{
+        padding:3% 1% 3% 1%;
+    }
     .construct-item {
     //   margin-bottom: 10px; /* 添加间距，使垂直排列时元素之间有间距 */
         margin-bottom: 2%; /* 添加间距，使垂直排列时元素之间有间距 */
