@@ -49,7 +49,7 @@
     $("h4").fitText(
         2.5, {
             minFontSize: '10px',
-            maxFontSize: '22px'
+            maxFontSize: '24px'
         }
     );
 
