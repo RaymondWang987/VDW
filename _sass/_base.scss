@@ -656,6 +656,9 @@ aside {
     p{
         font-size: 20px;
     }
+    a{
+        color: #007AFC;
+    }
 }
 .license-container{
     display: flex;
@@ -672,7 +675,8 @@ aside {
     }
 }
 .license-shaded{
-    background: #fff;
+    // background: #fff;
+    background: lightgray;
     margin-bottom: 1.5em;
     padding: 20px;
 }
