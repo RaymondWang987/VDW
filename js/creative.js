@@ -79,3 +79,40 @@
     new WOW().init();
 
 })(jQuery); // End of use strict
+
+
+
+let methodTabNavItem = document.querySelectorAll("#statistics .tab_nav>li");
+let methodTabBoxItem = document.querySelectorAll("#statistics .tab_box>li");
+let methodTabNavActive = document.querySelector("#statistics .tabNav_active");
+let methodTabBoxActive = document.querySelector("#statistics .tabBox_active");
+
+methodTabNavItem.forEach(function(item, index) {
+    item.addEventListener('click', function() {
+        methodTabNavActive.className = "";
+        this.className = "tabNav_active";
+        methodTabNavActive = this;
+
+        methodTabBoxActive.className = "";
+        methodTabBoxItem[index].className = "tabBox_active";
+        methodTabBoxActive = methodTabBoxItem[index];
+    }, false)
+});
+
+
+// let resultTabNavItem = document.querySelectorAll("#result .tab_nav>li");
+// let resultTabBoxItem = document.querySelectorAll("#result .tab_box>li");
+// let resultTabNavActive = document.querySelector("#result .tabNav_active");
+// let resultTabBoxActive = document.querySelector("#result .tabBox_active");
+
+// resultTabNavItem.forEach(function(item, index) {
+//     item.addEventListener('click', function() {
+//         resultTabNavActive.className = "";
+//         this.className = "tabNav_active";
+//         resultTabNavActive = this;
+
+//         resultTabBoxActive.className = "";
+//         resultTabBoxItem[index].className = "tabBox_active";
+//         resultTabBoxActive = resultTabBoxItem[index];
+//     }, false)
+// });
