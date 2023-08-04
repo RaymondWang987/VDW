@@ -47,15 +47,15 @@
 
 
     $("h4").fitText(
-        2.5, {
+        2.4, {
             minFontSize: '10px',
             maxFontSize: '24px'
         }
     );
 
     $("h5").fitText(
-        3, {
-            minFontSize: '12px',
+        3.2, {
+            minFontSize: '10px',
             maxFontSize: '22px'
         }
     );
