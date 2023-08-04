@@ -77,28 +77,30 @@
 
 
         <!-- ----------------- -->
-        <div style="text-align: center;color: black;">
+        <div style="text-align: center;color: black;max-width: 80%;">
             <p style="font-family: Roboto;font-size: 3vw;font-weight: bolder;margin: 1% auto;">Statistics</p>
         </div>
 
-        <div class="tab_contents">
+        <div class="tab_contents" style="max-width: 80%;">
             <ul class="tab_nav">
                 <li class="tabNav_active">
-                    <h5>NVDS <br> Framework</h5>
+                    <span style="font-size: 1.2vw;font-family: 'Franklin Gothic Medium';">Dataset Comparisons</span>
                 </li>
                 <li>
-                    <h5>Visual <br> Comparisons</h5>
+                    <span style="font-size: 1.2vw;font-family: 'Franklin Gothic Medium';">Objective Statistics</span>
                 </li>
                 <li>
-                    <h5>Quantitative <br> Results</h5>
+                    <span style="font-size: 1.2vw;font-family: 'Franklin Gothic Medium';">Train / Test Split</span>
                 </li>
             </ul>
-            <ul class="tab_box" style="color: black;">
+            <ul class="tab_box" style="color: black;max-width: 80%;">
                 <li class="tabBox_active">
                     <div>
-                        <p>Overview of the neural video depth stabilizer. Our framework consists of a depth predictor and a stabilization network. The depth predictor can be any single-image depth model which produces initial flickering disparity maps. Then, the stabilization network refines the flickering disparity maps into temporally consistent ones. The stabilization network functions in a sliding window manner: the frame to be predicted fetches information from adjacent frames for stabilization. During inference, our NVDS framework can be directly adapted to any off-the-shelf depth predictors in a plug-and-play manner. We also devise bidirectional inference to further improve consistency.</p>
+                        <h4>VDW dataset has larger numbers of video scenes. Compared with the closed-domain datasets, VDW is not restricted to a certain scene, which is more helpful to train a robust video depth model. For the natural-scene datasets, VDW has more than ten times the number of videos as the previous largest dataset 
+                        <span style="font-weight: 800;color: #007AFC;"><a href="https://sites.google.com/view/wsvd/home" style="color: #007AFC;">WSVD</a></span>. 
+                        It is also worth noticing that our VDW dataset has higher resolutions. We only collect videos over 1080p and crop them to 1880 × 800 to remove black bars and subtitles. </h4>
                         <!-- <div style="text-align: center;"><a href="img/framework.png" target="_blank"><img src="img/framework.png" alt="Framework" width="60%"></a></div> -->
-                        <div style="text-align: center;"><img src="statistics_page-0001.png" alt="Framework" width="100%"></div>
+                        <div style="text-align: center;max-width: 80%;"><img src="statistics_page-0001.png" alt="Framework" width="100%"></div>
                     </div>
                 </li>
                 <li>
