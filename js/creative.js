@@ -47,7 +47,7 @@
 
 
     $("h4").fitText(
-        3, {
+        2.5, {
             minFontSize: '10px',
             maxFontSize: '22px'
         }
