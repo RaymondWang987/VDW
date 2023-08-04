@@ -655,6 +655,100 @@ aside {
     }
 }
 
+//statistics
+.tab_contents ul {
+    /*text-align: center;*/
+    padding: 0px;
+    list-style: none;
+    /*display: flex;*/
+}
+
+.tab_contents {
+    /*width: 700px;*/
+    text-align: justify; 
+}
+
+.tab_contents .tab_nav {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.tab_contents .tab_nav li {
+    text-align: center;
+    padding: 10px 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #607291;
+    cursor: pointer;
+    /*display: flex;*/
+    overflow: hidden;
+}
+
+
+#method .tab_contents .tab_nav li {
+    width: 250px;
+    background: #f7f8f9;
+
+}
+
+#result .tab_contents .tab_nav li {
+    width: 200px;
+    background: white;
+
+}
+
+.tab_contents .tab_nav li h5 {
+    /*font-weight: bold;*/
+    font-size: 18px;
+    margin: 0px;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.tab_contents .tab_nav li:hover h5 {
+    opacity: 1;
+}
+
+#method .tab_contents .tabNav_active {
+    background: white !important;
+}
+
+#result .tab_contents .tabNav_active {
+    background: #f7f8f9 !important;
+}
+
+.tab_contents .tabNav_active h5 {
+    opacity: 1 !important;
+}
+
+.tab_contents .tab_box {
+    /*border-radius: 15px;*/
+    padding: 30px 20px 0px;
+    /*margin: 0px 10px;*/
+    margin: 0px;
+    /*background: white;*/
+}
+
+#method .tab_contents .tab_box {
+    background: white;
+}
+
+#result .tab_contents .tab_box {
+    background: #f7f8f9;
+}
+
+.tab_contents .tab_box li {
+    display: none;
+}
+
+.tab_contents .tabBox_active {
+    display: block !important;
+}
+
+
 // license
 .scrollable-text-box{
     overflow-y: scroll; /* 设置垂直滚动条 */

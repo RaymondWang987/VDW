@@ -72,8 +72,55 @@
                 </div>
             </div>
         </div>
+
+
+
+
+        <!-- ----------------- -->
+        <div style="text-align: center;">
+            <h2>Method&Experiments</h2>
+        </div>
+
+        <div class="tab_contents">
+            <ul class="tab_nav">
+                <li class="tabNav_active">
+                    <h5>NVDS <br> Framework</h5>
+                </li>
+                <li>
+                    <h5>Visual <br> Comparisons</h5>
+                </li>
+                <li>
+                    <h5>Quantitative <br> Results</h5>
+                </li>
+            </ul>
+            <ul class="tab_box">
+                <li class="tabBox_active">
+                    <div>
+                        <p>Overview of the neural video depth stabilizer. Our framework consists of a depth predictor and a stabilization network. The depth predictor can be any single-image depth model which produces initial flickering disparity maps. Then, the stabilization network refines the flickering disparity maps into temporally consistent ones. The stabilization network functions in a sliding window manner: the frame to be predicted fetches information from adjacent frames for stabilization. During inference, our NVDS framework can be directly adapted to any off-the-shelf depth predictors in a plug-and-play manner. We also devise bidirectional inference to further improve consistency.</p>
+                        <!-- <div style="text-align: center;"><a href="img/framework.png" target="_blank"><img src="img/framework.png" alt="Framework" width="60%"></a></div> -->
+                        <div style="text-align: center;"><img src="statistics_page-0001.png" alt="Framework" width="100%"></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>Visual comparisons. DeepV2D and Robust-CVD  show obvious artifacts in those videos. We draw the scanline slice over time; fewer zigzagging pattern means better consistency. Compared with the other video depth methods, our NVDS is more robust on natural scenes and achieves better spatial accuracy and temporal consistency.</p>
+                        <!-- <div style="text-align: center;"><a href="img/error_analysis.png" target="_blank"><img src="img/error_analysis.png" alt="Error Analysis" width="100%"></a></div> -->
+                        <div style="text-align: center;"><img src="statistics_page-0002.png" alt="Error Analysis" width="100%"></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>Comparisons with the state-of-the-art approaches. We report the total time of processing eight 640 × 480 frames by different methods on one NVIDIA RTX A6000 GPU. Best performance is in boldface. Second best is underlined.</p>
+                        <!-- <div style="text-align: center;"><a href="img/neural_renderer.png" target="_blank"><img src="img/neural_renderer.png" alt="Neural Renderer" width="100%"></a></div> -->
+                        <div style="text-align: center;"><img src="statistics_page-0004.png" alt="Neural Renderer" width="100%"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     
     </div>
         
-    
+
 </section>
+
+
