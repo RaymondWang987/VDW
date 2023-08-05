@@ -870,10 +870,10 @@ aside {
     padding: 10px; /* 可选，设置内边距 */
     height: 70%;
     h1{
-        font-size: 28px !important; 
+        font-size: 28px ; 
     }
     h2{
-        font-size: 24px !important;
+        font-size: 24px ;
     }
     p{
         font-size: 20px ;
@@ -885,10 +885,10 @@ aside {
 @media (min-width: 768px){
     .scrollable-text-box{
         h1{
-            font-size: 18px !important;
+            font-size: 18px ;
         }
         h2{
-            font-size: 14px !important;
+            font-size: 14px ;
         }
         p{
             font-size: 10px ;
