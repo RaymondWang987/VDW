@@ -592,6 +592,14 @@ aside {
 .statistics-pagepadding{
     padding:0% 15% 0% 15%;
 }
+.statistics-tabletext{
+    line-height: 120%;
+    color: gray;
+    font-family:Calibri;
+    font-size: 1.2vw;
+    hyphens: auto;
+    text-align: justify;
+}
 .construct-item{
     flex: 1;
     align-self: stretch;
@@ -612,6 +620,14 @@ aside {
     }
     .statistics-pagepadding{
         padding:0% 1% 0% 1%;
+    }
+    .statistics-tabletext{
+        line-height: 110%;
+        color: gray;
+        font-family:Calibri;
+        font-size: 3.0vw;
+        hyphens: auto;
+        text-align: justify;
     }
     .construct-item {
     //   margin-bottom: 10px; /* 添加间距，使垂直排列时元素之间有间距 */
