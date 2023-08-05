@@ -869,13 +869,13 @@ aside {
     border: 3px solid #ccc; /* 添加边框样式，可选 */
     padding: 10px; /* 可选，设置内边距 */
     height: 70%;
-    h1{
+    .scrollable-text-box-h1{
         font-size: 28px ; 
     }
-    h2{
+    .scrollable-text-box-h2{
         font-size: 24px ;
     }
-    p{
+    .scrollable-text-box-p{
         font-size: 20px ;
     }
     a{
@@ -884,13 +884,13 @@ aside {
 }
 @media (min-width: 768px){
     .scrollable-text-box{
-        h1{
+        .scrollable-text-box-h1{
             font-size: 18px ;
         }
-        h2{
+        .scrollable-text-box-h2{
             font-size: 14px ;
         }
-        p{
+        .scrollable-text-box-p{
             font-size: 10px ;
         }
     }
