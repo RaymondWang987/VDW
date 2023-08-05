@@ -864,6 +864,32 @@ aside {
 
 
 // license
+@media (min-width: 768px){
+    .scrollable-text-box{
+        .scrollable-text-box-h1{
+            font-size: 18px ;
+        }
+        .scrollable-text-box-h2{
+            font-size: 14px ;
+        }
+        .scrollable-text-box-p{
+            font-size: 10px ;
+        }
+    }
+}
+@media (min-width: 1200px){
+    .scrollable-text-box{
+        .scrollable-text-box-h1{
+            font-size: 28px ;
+        }
+        .scrollable-text-box-h2{
+            font-size: 24px ;
+        }
+        .scrollable-text-box-p{
+            font-size: 20px ;
+        }
+    }
+}
 .scrollable-text-box{
     overflow-y: scroll; /* 设置垂直滚动条 */
     border: 3px solid #ccc; /* 添加边框样式，可选 */
@@ -882,32 +908,8 @@ aside {
         color: #007AFC;
     }
 }
-@media (min-width: 1200px){
-    .scrollable-text-box{
-        .scrollable-text-box-h1{
-            font-size: 28px ;
-        }
-        .scrollable-text-box-h2{
-            font-size: 24px ;
-        }
-        .scrollable-text-box-p{
-            font-size: 20px ;
-        }
-    }
-}
-@media (min-width: 768px){
-    .scrollable-text-box{
-        .scrollable-text-box-h1{
-            font-size: 18px ;
-        }
-        .scrollable-text-box-h2{
-            font-size: 14px ;
-        }
-        .scrollable-text-box-p{
-            font-size: 10px ;
-        }
-    }
-}
+
+
 .license-container{
     display: flex;
     flex-direction: column;
