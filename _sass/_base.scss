@@ -870,13 +870,13 @@ aside {
     padding: 10px; /* 可选，设置内边距 */
     height: 70%;
     h1{
-        font-size: 28px;
+        font-size: 28px !important; 
     }
     h2{
-        font-size: 24px;
+        font-size: 24px !important;
     }
     p{
-        font-size: 20px;
+        font-size: 20px !important;
     }
     a{
         color: #007AFC;
@@ -885,13 +885,13 @@ aside {
 @media (min-width: 768px){
     .scrollable-text-box{
         h1{
-            font-size: 18px;
+            font-size: 18px !important;
         }
         h2{
-            font-size: 14px;
+            font-size: 14px !important;
         }
         p{
-            font-size: 10px;
+            font-size: 10px !important;
         }
     }
 }
