@@ -741,6 +741,9 @@ aside {
 
 //statistics
 .sec-title {
+    font-family: Roboto;
+    font-size: 3vw;
+    font-weight: bolder;
     position: relative;
   }
   
@@ -753,7 +756,14 @@ aside {
     height: 2%; /* 设置分隔线的高度 */
     background-color: darkgray; /* 设置分隔线的颜色 */
 }
-
+@media (max-width: 768px) {
+    .sec-title {
+        font-family: Roboto;
+        font-size: 6vw;
+        font-weight: bolder;
+        position: relative;
+      }
+}
 .tab_contents ul {
     /*text-align: center;*/
     padding: 0px;
