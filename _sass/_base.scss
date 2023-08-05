@@ -618,6 +618,12 @@ aside {
     //     font-size: 1.2vw;
     // }
 }
+.download-listtext{
+    color: black;
+    font-family:Roboto;
+    font-size: 1.1vw;
+    line-height: 120%;
+}
 .download-subtitle{
     color: #454D64;
     font-family: Roboto;
@@ -653,6 +659,12 @@ aside {
     }
     .download-textpadding{
         padding:0% 1% 3% 1%;
+    }
+    .download-listtext{
+        color: black;
+        font-family:Roboto;
+        font-size: 2.2vw;
+        line-height: 120%;
     }
     .download-subtitle{
         color: #454D64;
