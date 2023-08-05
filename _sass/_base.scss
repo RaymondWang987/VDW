@@ -882,6 +882,19 @@ aside {
         color: #007AFC;
     }
 }
+@media (min-width: 1200px){
+    .scrollable-text-box{
+        .scrollable-text-box-h1{
+            font-size: 28px ;
+        }
+        .scrollable-text-box-h2{
+            font-size: 24px ;
+        }
+        .scrollable-text-box-p{
+            font-size: 20px ;
+        }
+    }
+}
 @media (min-width: 768px){
     .scrollable-text-box{
         .scrollable-text-box-h1{
