@@ -62,13 +62,13 @@
             <h6 style="color: black;margin-top:0%;max-width: 60%;margin: auto;">
                 <span style="font-weight: 1000;font-family: Caveat">Data Pre-processing</span> 
             </h6>
-            <h5 style="color: black;font-family:Calibri;max-width: 70%;margin: 1% auto;text-align: justify;" class="text-justify">
+            <p style="color: black;font-family:Calibri;max-width: 70%;margin: 1% auto;text-align: justify;font-size: 1.15vw;" class="text-justify">
                 Having obtained the raw videos, we use <span style="font-weight: 800;color: #007AFC;"><a href="https://ffmpeg.org/" style="color: #007AFC;">FFmpeg</a></span> and 
                 <span style="font-weight: 800;color: #007AFC;"><a href="https://www.scenedetect.com/" style="color: #007AFC;">PySceneDetect</a></span> to split all the videos into 104,582 sequences. 
                 We manually check and remove the duplicated, chaotic, and blur scenes. d
                 Videos that are wrongly split by the scene detect tools are also removed. 
                 Finally, we reserve 32,405 videos with more than six million frames for disparity annotations.
-            </h5>
+            </p>
         </div>
 
 
@@ -127,9 +127,9 @@
             <h6 style="color: black;max-width: 60%;margin: auto;">
                 <span style="font-weight: 1000;font-family: Caveat">Invalid Sample Filtering</span> 
             </h6>
-            <h5 style="color: black;font-family:Calibri;max-width: 70%;margin: 1% auto;text-align: justify;" class="text-justify">
+            <p style="color: black;font-family:Calibri;max-width: 70%;margin: 1% auto;text-align: justify;font-size: 1.15vw;" class="text-justify">
                 We further filter the videos that are not qualified for our dataset. According to optical flow and valid masks, samples with the following three conditions are removed: 1) more than 30% of pixels in the consistency masks are invalid; 2) more than 10% of pixels have vertical disparity larger than two pixels; 3) the average range of horizontal disparity is less than 15 pixels. Then, we manually check all the videos along with their corresponding ground truth, and remove the samples with obvious errors. Finally, we retain 14,203 videos with 2,237,320 frames in VDW dataset.
-            </h5>
+            </p>
         </div>
 
     </div>
