@@ -594,7 +594,7 @@ aside {
     // height: 100vh; /* 设置剩下的四个section的高度为视口高度，使其铺满整个屏幕 */
     background-image: url("https://s2.loli.net/2023/08/06/HdMRSkmWVniZLA5.png");
     //background-image: url("https://s2.loli.net/2023/08/06/ysUJLTG1kMgfh27.png"); /* 设置剩下的四个section的背景图片为2.png */
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
