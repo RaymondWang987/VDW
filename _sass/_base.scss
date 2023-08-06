@@ -590,6 +590,12 @@ aside {
     line-height: 120%;
 }
 
+.img-bg {
+    height: 100vh; /* 设置剩下的四个section的高度为视口高度，使其铺满整个屏幕 */
+    background-image: url("bg.png"); /* 设置剩下的四个section的背景图片为2.png */
+    background-attachment: scroll; /* 使背景图片随滚动而移动 */
+}
+
 .statistics-pagepadding{
     padding:0% 15% 0% 15%;
 }
