@@ -865,23 +865,29 @@ aside {
 
 // license
 .scrollable-text-box-h1{
-    font-size: 22px ;
+    font-size: 18px ;
 }
 .scrollable-text-box-h2{
-    font-size: 20px ;
+    font-size: 16px ;
 }
 .scrollable-text-box-p{
-    font-size: 18px ;
+    font-size: 14px ;
+}
+.scrollable-text-box-li{
+    font-size: 12px ;
 }
 @media (min-width: 768px){
     .scrollable-text-box-h1{
-        font-size: 22px ;
+        font-size: 18px ;
     }
     .scrollable-text-box-h2{
-        font-size: 20px ;
+        font-size: 16px ;
     }
     .scrollable-text-box-p{
-        font-size: 18px ;
+        font-size: 14px ;
+    }
+    .scrollable-text-box-li{
+        font-size: 12px ;
     }
 }
 @media (min-width: 1200px){
@@ -893,6 +899,9 @@ aside {
     }
     .scrollable-text-box-p{
         font-size: 20px ;
+    }
+    .scrollable-text-box-li{
+        font-size: 18px ;
     }
 }
 .scrollable-text-box{
