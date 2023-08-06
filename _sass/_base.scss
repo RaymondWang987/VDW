@@ -951,6 +951,15 @@ aside {
     padding: 20px;
 }
 
+.bottomlogo-hover {
+    transition-duration: 0.4s;
+}
+.bottomlogo-hover:hover {
+    background-color: #EEE6E1;
+    border-radius:2vh;
+}
+
+
 
 //team&contact
 .paper-author {
