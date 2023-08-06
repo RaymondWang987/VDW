@@ -597,6 +597,11 @@ aside {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+@media (max-width: 768px) {
+    .img-bg {
+        background-color: lightgray;
+    }
+}
 
 .statistics-pagepadding{
     padding:0% 15% 0% 15%;
