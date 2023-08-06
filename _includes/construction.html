@@ -24,7 +24,7 @@
                     <h6 style="color: black;margin-top:0px;">
                         <span style="font-weight: 1000;font-family: Caveat">Overall Description</span> 
                     </h6>
-                    <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 100%;margin: auto;text-align: justify;" class="text-justify">
+                    <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 90%;margin: auto;text-align: justify;" class="text-justify">
                         Current video depth datasets are limited in both diversity and volume. 
                         To compensate for the data shortage and boost the performance of learning-based video depth models, 
                         we elaborate a large-scale natural-scene dataset, 
@@ -43,7 +43,7 @@
                     <h6 style="color: black;margin-top:0px;">
                         <span style="font-weight: 1000;font-family: Caveat">Raw Video Acquisition</span> 
                     </h6>
-                    <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 100%;margin: auto;text-align: justify;" class="text-justify">
+                    <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 90%;margin: auto;text-align: justify;" class="text-justify">
                         We collect stereo videos from four data sources: 
                         <span style="font-weight: 800;">movies, animations, documentaries, and web videos. </span>
                         A total of 60 animations, documentaries, and movies in Blu-ray format are collected. 
@@ -85,7 +85,7 @@
                     <h6 style="color: black;margin-top:0px;">
                         <span style="font-weight: 1000;font-family: Caveat">Sky Segmentation</span> 
                     </h6>
-                    <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 100%;margin: auto;text-align: justify;" class="text-justify">
+                    <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 90%;margin: auto;text-align: justify;" class="text-justify">
                         As sky is infinitely far, pixels in sky regions should be set to the minimum value in disparity maps. 
                         We generate sky masks in a model ensemble manner. 
                         Each frame along with its horizontally flipped copy are fed into two semantic segmentation models 
@@ -112,7 +112,7 @@
                     <h6 style="color: black;margin-top:0px;">
                         <span style="font-weight: 1000;font-family: Caveat">Disparity Annotation</span> 
                     </h6>
-                    <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 100%;margin: auto;text-align: justify;" class="text-justify">
+                    <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 90%;margin: auto;text-align: justify;" class="text-justify">
                         We adopt the optical flow model <span style="font-weight: 800;color: #007AFC;"><a href="https://github.com/haofeixu/gmflow"  style="color: #007AFC;">GMFlow</a></span> to generate the ground truth disparity of the left- and right-eye views. 
                         The estimated optical flow is bidirectional. We perform a consistency check between the optical flow pairs to obtain the valid masks for training. 
                         We adopt an adaptive consistency threshold for each pixel. The ground truth of each video is normalized by its minimum and maximum disparity. 
