@@ -643,7 +643,7 @@ aside {
 .download-subtitle{
     color: #454D64;
     font-family: Roboto;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bolder;
     margin:auto;
     text-align: left;
@@ -763,7 +763,7 @@ aside {
 //statistics
 .sec-title {
     font-family: Roboto;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-weight: bolder;
     position: relative;
   }
@@ -771,7 +771,7 @@ aside {
 .sec-title::after {
     content: "";
     position: absolute;
-    bottom: 12.5%; /* 调整分隔线的位置，可以根据需要调整 */
+    bottom: 5%; /* 调整分隔线的位置，可以根据需要调整 */
     left: 0;
     width: 100%;
     height: 2%; /* 设置分隔线的高度 */
