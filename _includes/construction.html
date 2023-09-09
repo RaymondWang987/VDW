@@ -104,7 +104,7 @@
                         <span style="font-weight: 1000;font-family: Caveat">Disparity Annotation</span> 
                     </h6>
                     <h4 style="color: black;margin-top:4%;font-family:Calibri;hyphens: auto;max-width: 90%;margin: auto;text-align: justify;" class="text-justify">
-                        We adopt the optical flow model <span style="font-weight: 800;color: #007AFC;"><a href="https://github.com/haofeixu/gmflow"  style="color: #007AFC;">GMFlow</a></span> to generate the ground truth disparity of the left- and right-eye views. 
+                        We adopt the optical flow model <span style="color: #007AFC;"><a href="https://github.com/haofeixu/gmflow"  style="color: #007AFC;">GMFlow</a></span> to generate the ground truth disparity of the left- and right-eye views. 
                         The estimated optical flow is bidirectional. We perform a consistency check between the optical flow pairs to obtain the valid masks for training. 
                         We adopt an adaptive consistency threshold for each pixel. The ground truth of each video is normalized by its minimum and maximum disparity. 
                         The disparity value is discretized into 65,535 intervals. 
